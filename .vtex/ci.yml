@@ -1,0 +1,17 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo Installing Packages...
+      - cd react
+      - npm install
+      - echo Packages installed!
+  pre_build:
+    commands:
+      - echo Running tests...
+      - cd react
+      - npm run test
+      - echo Tests finished!
+cache:
+  paths:
+    - "node_modules/**/*"
