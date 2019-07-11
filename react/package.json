@@ -1,8 +1,7 @@
 {
   "scripts": {
-    "lint": "tsc --noEmit",
-    "test": "vtex-test-tools test",
-    "test:watch": "vtex-test-tools test:watch"
+    "lint": "tsc --noEmit && eslint --ext ts,tsx .",
+    "test": "vtex-test-tools test"
   },
   "devDependencies": {
     "@types/graphql": "^14.2.2",

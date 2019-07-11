@@ -4,13 +4,11 @@
   "version": "0.0.0",
   "title": "title",
   "description": "desc",
-  "defaultLocale": "en-US",
   "builders": {
     "react": "3.x",
     "messages": "1.x"
   },
   "dependencies": {},
-  "mustUpdateAt": "2020-09-10",
   "categories": ["smartcheckout"],
   "registries": ["smartcheckout"],
   "scripts": {
