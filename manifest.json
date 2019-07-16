@@ -1,20 +1,15 @@
 {
   "vendor": "vtex",
-  "name": "name",
+  "name": "CHANGE_ME",
   "version": "0.0.0",
-  "title": "title",
-  "description": "desc",
+  "title": "CHANGE_ME",
+  "description": "CHANGE_ME",
   "builders": {
     "react": "3.x",
     "messages": "1.x"
   },
   "dependencies": {},
-  "categories": ["smartcheckout"],
   "registries": ["smartcheckout"],
-  "scripts": {
-    "postreleasy": "vtex publish -p"
-  },
-  "credentialType": "absolute",
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
