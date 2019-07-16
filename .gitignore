@@ -42,3 +42,4 @@ lerna-debug.log
 yarn-error.log
 *.orig
 package-lock.json
+react/package-lock.json
