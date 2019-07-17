@@ -10,7 +10,7 @@ phases:
     commands:
       - echo Running tests...
       - npm run verify
-      - echo Tests finished!
+      - echo Lint and tests finished!
 cache:
   paths:
     - 'node_modules/**/*'

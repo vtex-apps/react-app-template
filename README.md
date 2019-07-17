@@ -33,3 +33,26 @@ TS lint configured with Prettier and .Config.
   "verify": "yarn lint && yarn lint:locales && yarn test"
 }
 ```
+
+### Ci
+
+#### Install:
+
+```yml
+install:
+  commands:
+    - echo Installing Packages...
+    - cd react
+    - npm install
+    - echo Packages installed!
+```
+
+#### Pre-build:
+
+```yml
+pre_build:
+  commands:
+    - echo Running tests...
+    - npm run verify
+    - echo Lint and tests finished!
+```
