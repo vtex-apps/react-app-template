@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "lint": "tsc --noEmit && eslint --ext ts,tsx .",
+    "test": "vtex-test-tools test"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.2",
+    "@types/react": "^16.8.22",
+    "@types/react-intl": "^2.3.18",
+    "@vtex/test-tools": "^0.3.2",
+    "eslint": "^5.16.0",
+    "eslint-config-vtex-react": "^4.1.0",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "typescript": "3.5.2"
+  },
+  "dependencies": {
+    "apollo-client": "^2.6.3",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-intl": "^2.9.0"
+  }
+}
