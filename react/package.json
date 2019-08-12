@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "tsc --noEmit && eslint --ext ts,tsx .",
+    "lint": "tsc --noEmit && eslint --quiet --fix --ext ts,tsx .",
     "test": "vtex-test-tools test"
   },
   "devDependencies": {
