@@ -1,9 +1,6 @@
 ### SublimeText ###
 *.sublime-workspace
 
-### VS Code ###
-*.vscode
-
 ### OSX ###
 .DS_Store
 .AppleDouble
