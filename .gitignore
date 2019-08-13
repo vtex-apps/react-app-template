@@ -1,9 +1,6 @@
 ### SublimeText ###
 *.sublime-workspace
 
-### VS Code ###
-*.vscode
-
 ### OSX ###
 .DS_Store
 .AppleDouble
@@ -41,5 +38,3 @@ build
 lerna-debug.log
 yarn-error.log
 *.orig
-package-lock.json
-react/package-lock.json

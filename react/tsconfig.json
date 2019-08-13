@@ -3,7 +3,7 @@
     "alwaysStrict": true,
     "esModuleInterop": true,
     "jsx": "react",
-    "lib": ["es2017", "dom", "es2018.promise"],
+    "lib": ["es2017", "dom", "es2018.promise", "esnext.asynciterable"],
     "module": "es6",
     "moduleResolution": "node",
     "noEmitOnError": false,
@@ -21,8 +21,7 @@
     "typeRoots": ["node_modules/@types"],
     "types": ["node", "jest", "graphql"]
   },
-  "exclude": ["node_modules"],
-  "include": ["./typings/*.d.ts", "./**/*.tsx"],
+  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts"],
   "typeAcquisition": {
     "enable": false
   }
