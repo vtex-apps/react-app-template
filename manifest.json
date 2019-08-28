@@ -6,10 +6,13 @@
   "description": "CHANGE_ME",
   "builders": {
     "react": "3.x",
-    "messages": "1.x"
+    "messages": "1.x",
+    "docs": "0.x"
   },
   "dependencies": {},
-  "registries": ["smartcheckout"],
+  "registries": [
+    "smartcheckout"
+  ],
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
