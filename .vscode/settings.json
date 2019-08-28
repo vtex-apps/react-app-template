@@ -21,5 +21,15 @@
   ],
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "eslint.packageManager": "yarn"
+  "eslint.packageManager": "yarn",
+  "eslint.workingDirectories": [
+    {
+      "directory": "react",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "node",
+      "changeProcessCWD": true
+    }
+  ]
 }
