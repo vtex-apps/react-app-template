@@ -8,7 +8,7 @@ We use `yarn` as our default package manager, before coding make sure to run yar
 
 ### Tests
 
-For testing we use `@vtex/test-tools`, our own testing framework based on `react-testing-library`, the tests should be located on the `react/__tests__` folder. For references, visit our [repository](https://github.com/vtex/test-tools).
+For testing we use `@vtex/test-tools`, our own testing framework based on `react-testing-library`, the tests should be located on the `react/__tests__` folder. For references, visit our [repository](https://github.com/vtex/test-tools).
 
 ### Hooks
 
@@ -16,7 +16,7 @@ Husky hooks tha runs on every `pre-commit` and `pre-push`.
 
 ### Intl Equalizer
 
-Tool for equalizing the messages located on the `messages` folder/builder. It's configured to use the **en.json** as the default file for comparison. For references, visit our [repository](https://github.com/vtex/intl-equalizer).
+Tool for equalizing the messages located on the `messages` folder/builder. It's configured to use the **en.json** as the default file for comparison. For references, visit our [repository](https://github.com/vtex/intl-equalizer).
 
 ### Lint + Formatting
 
