@@ -6,6 +6,6 @@
 
 <!--- Optional -->
 
-#### Related to / Depends on? \*
+#### Related to / Depends on \*
 
 <!--- Optional -->
