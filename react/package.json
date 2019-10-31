@@ -17,7 +17,7 @@
     "@vtex/test-tools": "^0.3.2",
     "@vtex/tsconfig": "^0.2.0",
     "eslint": "5.x",
-    "eslint-config-vtex-react": "^5.0.1",
+    "eslint-config-vtex-react": "^5.1.0",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "typescript": "3.5.2"
