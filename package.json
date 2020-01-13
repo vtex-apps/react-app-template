@@ -2,6 +2,7 @@
   "version": "0.0.0",
   "devDependencies": {
     "@vtex/intl-equalizer": "^2.3.0",
+    "@vtex/prettier-config": "^0.0.1",
     "husky": "^2.4.1"
   },
   "scripts": {
