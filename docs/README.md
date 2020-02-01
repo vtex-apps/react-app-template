@@ -1,58 +1,57 @@
-# VTEX React App Template
+First of all (even before the block's name), its README.md should contain the following sentence at the very beginning:
 
-Our guide repository to structure for react apps, that should be used as a template.
+`📢 Use this project, [contribute](https://github.com/{OrganizationName/{AppName}) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).`
 
-We use `yarn` as our default package manager, before coding make sure to run yarn on: `root` and `react` folders.
+# BLOCK NAME
 
-## Some features:
+Under the block's name, you should explain the topic, giving a **brief description** of the **block's functionality** in a store.
 
-### Tests
+Next, **add media** (either an image of a GIF) with the rendered block, so that users can better understand how the block works in practice. 
 
-For testing we use `@vtex/test-tools`, our own testing framework based on `react-testing-library`, the tests should be located on the `react/__tests__` folder. For references, visit our [repository](https://github.com/vtex/test-tools).
+![Media Placeholder](https://user-images.githubusercontent.com/52087100/71204177-42ca4f80-227e-11ea-89e6-e92e65370c69.png)
 
-### Hooks
+## Configuration 
 
-Husky hooks tha runs on every `pre-commit` and `pre-push`.
+In this section, you first must **add the primary instructions** that will allow users to use the block in their store, such as adding the block's app as a dependency in the `manifest.json` and declaring the block itself in a given template.
 
-### Intl Equalizer
+Next, add the **block's props table**:
 
-Tool for equalizing the messages located on the `messages` folder/builder. It's configured to use the **en.json** as the default file for comparison. For references, visit our [repository](https://github.com/vtex/intl-equalizer).
+| Prop name    | Type            | Description    | Default value                                                                                                                               |
+| ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
+| `XXXXX`      | `XXXXXX`       | XXXXXXXX         | `XXXXXX`        |
 
-### Lint + Formatting
 
-TS lint configured with Prettier and .Config.
+Remember to also **showcase any necessary disclaimer** related to the block in this section, such as the different behavior it may display during its configuration. 
 
-### Available Scripts
+## Modus Operandi *(not mandatory)*
 
-```json
-{
-  "lint": "cd ./react && yarn lint",
-  "test": "cd ./react && yarn test",
-  "lint:locales": "intl-equalizer",
-  "locales:fix": "intl-equalizer --fix",
-  "verify": "yarn lint && yarn lint:locales && yarn test"
-}
-```
+There are scenarios in which a block can behave differently in a store, according to how it was added to the catalog, for example. It's crucial to go through these **behavioral changes** in this section, allowing users to fully understand the **practical application** of the block in their store.
 
-### Ci
+If you feel compelled to give further details about the block, such as it's **relationship with the VTEX admin**, don't hesitate to use this section. 
 
-#### Install:
+## Customization
 
-```yml
-install:
-  commands:
-    - echo Installing Packages...
-    - cd react
-    - npm install
-    - echo Packages installed!
-```
+The first thing that should be present in this section is the sentence below, showing users the recipe pertaining to CSS customization in blocks:
 
-#### Pre-build:
+`In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).`
 
-```yml
-pre_build:
-  commands:
-    - echo Running tests...
-    - npm run verify
-    - echo Lint and tests finished!
-```
+Thereafter, you should add a single column table with the available CSS handles for that block:
+
+| CSS Handles |
+| ----------- | 
+| `XXXXX` | 
+| `XXXXX` | 
+| `XXXXX` | 
+| `XXXXX` | 
+| `XXXXX` |
+
+
+If there are none, add the following sentence instead:
+
+`The component still doesn't have CSS Handles for its specific customization.`
+
+---
+
+Check out some documentation models that are already live: 
+- [Breadcrumb](https://github.com/vtex-apps/breadcrumb)
+- [Image](https://vtex.io/docs/components/general/vtex.store-components/image)
