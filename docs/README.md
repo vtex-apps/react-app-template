@@ -1,5 +1,7 @@
 # VTEX React App Template
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
 Our guide repository to structure for react apps, that should be used as a template.
 
 We use `yarn` as our default package manager, before coding make sure to run yarn on: `root` and `react` folders.
@@ -34,7 +36,7 @@ TS lint configured with Prettier and .Config.
 }
 ```
 
-### Ci
+### CI
 
 #### Install:
 
@@ -56,3 +58,19 @@ pre_build:
     - npm run verify
     - echo Lint and tests finished!
 ```
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
