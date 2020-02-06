@@ -1,6 +1,8 @@
 First of all (even before the block's name), its README.md should contain the following sentence at the very beginning:
 
-`📢 Use this project, [contribute](https://github.com/{OrganizationName/{AppName}) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).`
+`📢 Use this project, [contribute](https://github.com/{OrganizationName}/{AppName}) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).`
+
+> :warning: *Remember to replace the values between braces according to your scenario. For example: https://github.com/vtex-apps/breadcrumb*
 
 # BLOCK NAME
 
