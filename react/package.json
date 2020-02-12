@@ -26,6 +26,5 @@
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "typescript": "3.7.3"
-  },
-  "version": "0.0.1"
+  }
 }
