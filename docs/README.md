@@ -57,3 +57,4 @@ If there are none, add the following sentence instead:
 Check out some documentation models that are already live: 
 - [Breadcrumb](https://github.com/vtex-apps/breadcrumb)
 - [Image](https://vtex.io/docs/components/general/vtex.store-components/image)
+
