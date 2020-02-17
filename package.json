@@ -1,12 +1,14 @@
 {
   "version": "0.0.0",
-  "devDependencies": {
-    "@vtex/intl-equalizer": "^2.3.0",
-    "@vtex/prettier-config": "^0.0.1",
-    "husky": "^2.4.1"
-  },
+  "name": "CHANGE_ME",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "react"
+  ],
   "scripts": {
-    "lint": "cd ./react && yarn lint",
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,js,json}\"",
     "test": "cd ./react && yarn test",
     "lint:locales": "intl-equalizer",
     "locales:fix": "intl-equalizer --fix",
@@ -14,9 +16,26 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn lint:locales && yarn locales:fix",
+      "pre-commit": "lint-staged && yarn lint:locales && yarn locales:fix",
       "pre-push": "yarn verify"
     }
+  },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@vtex/intl-equalizer": "^2.4.2",
+    "@vtex/prettier-config": "^0.1.3",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
   },
   "intl-equalizer": {
     "referenceLocale": "en",
