@@ -3,9 +3,6 @@
   "name": "CHANGE_ME",
   "private": true,
   "license": "UNLICENSED",
-  "workspaces": [
-    "react"
-  ],
   "scripts": {
     "lint": "eslint --ext js,jsx,ts,tsx .",
     "format": "prettier --write \"**/*.{ts,js,json}\"",
