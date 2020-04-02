@@ -9,7 +9,7 @@ phases:
   pre_build:
     commands:
       - echo Running tests...
-      - npm run verify
+      - npm run test
       - echo Lint and tests finished!
 cache:
   paths:
