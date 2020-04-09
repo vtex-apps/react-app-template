@@ -6,6 +6,10 @@ First of all (even before the block's name), its README.md should contain the fo
 
 # BLOCK NAME
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 Under the block's name, you should explain the topic, giving a **brief description** of the **block's functionality** in a store.
 
 Next, **add media** (either an image of a GIF) with the rendered block, so that users can better understand how the block works in practice. 
@@ -58,3 +62,15 @@ Check out some documentation models that are already live:
 - [Breadcrumb](https://github.com/vtex-apps/breadcrumb)
 - [Image](https://vtex.io/docs/components/general/vtex.store-components/image)
 
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
