@@ -36,7 +36,7 @@ jobs:
         id: yarn-cache
         with:
           path: '${{ steps.yarn-cache-dir-path.outputs.dir }}'
-          key: '${{ runner.os }}-yarn-${{ hashFiles(''**/yarn.lock'') }}'
+          key: "${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}"
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Run test on every builder directory
@@ -58,10 +58,8 @@ jobs:
         id: yarn-cache
         with:
           path: '${{ steps.yarn-cache-dir-path.outputs.dir }}'
-          key: '${{ runner.os }}-yarn-${{ hashFiles(''**/yarn.lock'') }}'
+          key: "${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}"
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - name: yarn install
-        run: yarn install --frozen-lockfile
       - name: Lint project
         uses: vtex/action-lint@master
