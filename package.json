@@ -15,8 +15,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && intl-equalizer && intl-equalizer --fix",
-      "pre-push": "yarn test"
+      "pre-commit": "lint-staged && intl-equalizer && intl-equalizer --fix"
     }
   },
   "lint-staged": {
