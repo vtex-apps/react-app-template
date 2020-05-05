@@ -4,7 +4,6 @@ react/node_modules/
 .gitignore
 package.json
 README.md
-CHANGELOG.md
 react/**/__tests__/**
 react/**/__mocks__/**
 react/testUtils/**
