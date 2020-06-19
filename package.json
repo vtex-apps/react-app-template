@@ -5,8 +5,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
     "lint:locales": "intl-equalizer",
-    "format": "prettier --write \"**/*.{ts,js,json}\"",
     "test": "cd ./react && yarn test"
   },
   "intl-equalizer": {
