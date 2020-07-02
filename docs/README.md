@@ -8,7 +8,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-Under the app's name, you should explain the topic, giving a **brief description** of its **functionality** in a store.
+Under the app's name, you should explain the topic, giving a **brief description** of its **functionality** in a store when installed.
 
 Next, **add media** (either an image of a GIF) with the rendered components, so that users can better understand how the app works in practice. 
 
@@ -23,7 +23,9 @@ In this section, you first must **add the primary instructions** that will allow
 
 Remember to add a table with all blocks exported by the app and their descriptions. You can verify an example of it on the [Search Result documentation](https://vtex.io/docs/components/all/vtex.search-result@3.56.1/). 
 
-Next, add the **props table**. If the app exports more than one block, create several tables - one for each block. For example:
+Next, add the **props table** containing your block's props. 
+
+If the app exports more than one block, create several tables - one for each block. For example:
 
 ### `block-1` props
 
@@ -49,7 +51,7 @@ Prop types are:
 
 When documenting a prop whose type is `object` or `array` another prop table will be needed. You can create it following the example below:
 
-- `propName`'s object:
+- `propName` object:
 
 | Prop name    | Type            | Description    | Default value                                                                                                                               |
 | ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
