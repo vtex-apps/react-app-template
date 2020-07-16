@@ -29,13 +29,13 @@
   },
   "devDependencies": {
     "@vtex/intl-equalizer": "^2.4.2",
-    "@vtex/prettier-config": "^0.1.4",
-    "eslint": "^6.8.0",
-    "eslint-config-vtex": "^12.3.2",
-    "eslint-config-vtex-react": "^6.3.2",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.1.1",
-    "prettier": "^2.0.2",
-    "typescript": "^3.8.3"
+    "@vtex/prettier-config": "^0.3.1",
+    "eslint": "^7.4.0",
+    "eslint-config-vtex": "^12.7.0",
+    "eslint-config-vtex-react": "^6.7.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
   }
 }
