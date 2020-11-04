@@ -6,8 +6,6 @@ type Props = {
 }
 
 const Index: FunctionComponent<Props> = ({ name }) => {
-  window.addEventListener
-
   return <div>Hi, {name}</div>
 }
 
