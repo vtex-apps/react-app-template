@@ -1,17 +1,17 @@
 # general
-node_modules/
+**/node_modules/
 .git/
-package.json
-README.md
+/package.json
+/README.md
+/crowdin.yml
 
 # tools
-.eslintrc
-.prettierrc
-.gitignore
-
+**/.eslintrc
+**/.prettierrc
+**/.gitignore
 
 # tests
-__tests__/
-__mocks__/
-*.test.*
+**/__tests__
+**/__mocks__
+**/*.test.*
 react/testUtils/**
