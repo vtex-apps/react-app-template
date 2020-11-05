@@ -1,9 +1,17 @@
-.git/
-react/node_modules/
-.eslintrc
-.gitignore
-package.json
-README.md
-react/**/__tests__/**
-react/**/__mocks__/**
+# general
+**/node_modules/
+/.git/
+/package.json
+/README.md
+/crowdin.yml
+
+# tools
+**/.eslintrc
+**/.prettierrc
+**/.gitignore
+
+# tests
+**/__tests__
+**/__mocks__
+**/*.test.*
 react/testUtils/**
