@@ -3,5 +3,7 @@ declare module '*.css' {
     [selector: string]: string
   }
 
-  export default Styles
+  const styles: Styles
+
+  export default styles
 }
