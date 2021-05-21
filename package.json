@@ -15,7 +15,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && intl-equalizer && intl-equalizer --fix"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -25,6 +25,9 @@
     ],
     "*.json": [
       "prettier --write"
+    ],
+    "messages/*.json": [
+      "yarn lint:locales"
     ]
   },
   "devDependencies": {
