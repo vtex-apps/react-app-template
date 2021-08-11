@@ -40,5 +40,8 @@
     "lint-staged": "^10.5.1",
     "prettier": "^2.2.0",
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@vtex/danger": "^0.2.7"
   }
 }
