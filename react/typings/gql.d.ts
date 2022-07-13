@@ -11,5 +11,5 @@ declare module '*.graphql' {
 
   const schema: DocumentNode
 
-  export default Schema
+  export default schema
 }
