@@ -1,0 +1,15 @@
+type Mutation {
+  setRegionId(
+    country: String!
+    postalCode: String!
+    salesChannel: String!
+  ): SessionResponse
+}
+
+type SessionResponse {
+  updated: Boolean
+}
+
+type Query {
+  value: String
+}

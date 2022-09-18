@@ -1,0 +1,6 @@
+{
+    "custom-search-bar":{
+        "component":"CustomSearchBar",
+        "render": "lazy"
+    }
+}
