@@ -1,0 +1,14 @@
+.newZIndexSearchBar{
+    z-index: 2!important;
+}
+.searchBtn{
+    width: 44px;
+    height: 44px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

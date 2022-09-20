@@ -1,0 +1,14 @@
+{
+    "custom-search-bar":{
+        "component":"CustomSearchBar",
+        "render": "lazy"
+    },
+    "custom-search-filters":{
+        "component":"CustomFilters",
+        "render": "lazy"
+    },
+    "variation-color":{
+        "component":"SugesstedColors",
+        "render": "lazy"
+    }
+}

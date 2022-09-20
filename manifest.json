@@ -1,18 +1,46 @@
 {
-  "vendor": "CHANGE_ME",
-  "name": "CHANGE_ME",
-  "version": "0.0.0",
-  "title": "CHANGE_ME",
-  "description": "CHANGE_ME",
+  "vendor": "bscolombia",
+  "name": "bs-apps",
+  "version": "0.0.1",
+  "title": "Branding Shoes App",
+  "description": "Customs apps",
   "builders": {
+    "assets": "0.x",
     "react": "3.x",
-    "messages": "1.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "store": "0.x",
+    "graphql": "1.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.device-detector": "0.x",
+    "vtex.search-page-context": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.native-types": "0.x",
+    "vtex.search-result": "3.x",
+    "vtex.recommendation-context": "0.x",
+    "vtex.recommendation-graphql": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.css-handles": "1.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.shelf-components": "0.x",
+    "vtex.order-manager": "0.x",
+    "vtex.store-resources": "0.x"
+  },
+  "billingOptions": {
+    "type": "sponsored"
+  },
   "registries": [
     "smartcheckout"
   ],
-  "policies": [],
+  "policies": [
+    {
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/*"
+      },
+      "name": "outbound-access"
+    }
+  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

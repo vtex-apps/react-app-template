@@ -1,0 +1,41 @@
+.ContainerfilterForm{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 56.75px;
+    cursor: pointer;
+}
+
+.VerMasfilterForm{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #72716F;
+}
+
+.ContentTopfilterForm{
+
+}
+
+.contentInputfilterForm{
+
+}
+
+.labelSelect{
+
+}
+
+.TasaSelectInput{
+
+}
+
+.customFormBtn{
+
+}
