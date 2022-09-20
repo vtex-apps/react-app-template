@@ -6,67 +6,41 @@
   "description": "Customs apps",
   "builders": {
     "assets": "0.x",
-    "styles": "2.x",
-    "store": "0.x",
-    "sitemap": "0.x",
+    "react": "3.x",
     "docs": "0.x",
+    "store": "0.x",
     "graphql": "1.x"
   },
   "dependencies": {
-    "vtex.store": "2.x",
-    "vtex.store-header": "2.x",
-    "vtex.product-summary": "2.x",
-    "vtex.store-footer": "2.x",
-    "vtex.store-components": "3.x",
+    "vtex.device-detector": "0.x",
+    "vtex.search-page-context": "0.x",
     "vtex.styleguide": "9.x",
-    "vtex.slider": "0.x",
-    "vtex.carousel": "2.x",
-    "vtex.shelf": "1.x",
-    "vtex.menu": "2.x",
-    "vtex.minicart": "2.x",
-    "vtex.product-details": "1.x",
-    "vtex.product-kit": "1.x",
+    "vtex.native-types": "0.x",
     "vtex.search-result": "3.x",
-    "vtex.login": "2.x",
-    "vtex.my-account": "1.x",
-    "vtex.flex-layout": "0.x",
-    "vtex.rich-text": "0.x",
-    "vtex.store-drawer": "0.x",
-    "vtex.locale-switcher": "0.x",
-    "vtex.product-quantity": "1.x",
-    "vtex.product-identifier": "0.x",
-    "vtex.breadcrumb": "1.x",
-    "vtex.sticky-layout": "0.x",
-    "vtex.product-customizer": "2.x",
-    "vtex.stack-layout": "0.x",
-    "vtex.product-specification-badges": "0.x",
-    "vtex.product-review-interfaces": "1.x",
-    "vtex.telemarketing": "2.x",
-    "vtex.order-placed": "2.x",
-    "vtex.checkout-summary": "0.x",
-    "vtex.product-list": "0.x",
-    "vtex.add-to-cart-button": "0.x",
-    "vtex.product-bookmark-interfaces": "1.x",
-    "vtex.responsive-layout": "0.x",
-    "vtex.slider-layout": "0.x",
-    "vtex.store-image": "0.x",
-    "vtex.store-icons": "0.x",
+    "vtex.recommendation-context": "0.x",
+    "vtex.recommendation-graphql": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.css-handles": "1.x",
     "vtex.modal-layout": "0.x",
-    "vtex.store-link": "0.x",
-    "vtex.store-video": "1.x",
-    "vtex.product-gifts": "0.x",
-    "vtex.product-price": "1.x",
-    "vtex.disclosure-layout": "1.x",
-    "vtex.store-form": "0.x",
-    "vtex.product-highlights": "2.x",
-    "vtex.product-specifications": "1.x",
-    "vtex.tab-layout": "0.x",
-    "vtex.condition-layout": "2.x",
-    "vtex.css-handles": "1.x"
+    "vtex.shelf-components": "0.x",
+    "vtex.order-manager": "0.x",
+    "vtex.store-resources": "0.x"
+  },
+  "billingOptions": {
+    "type": "sponsored"
   },
   "registries": [
     "smartcheckout"
   ],
-  "policies": [],
+  "policies": [
+    {
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/*"
+      },
+      "name": "outbound-access"
+    }
+  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

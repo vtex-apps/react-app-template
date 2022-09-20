@@ -1,13 +1,14 @@
 .newZIndexSearchBar{
-    z-index: 2;
+    z-index: 2!important;
 }
 .searchBtn{
-    /*background: url('assets/svg/search-white-icon.svg');
-    content: url('assets/svg/search-white-icon.svg');*/
-    content: "lupa";
     width: 44px;
     height: 44px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
