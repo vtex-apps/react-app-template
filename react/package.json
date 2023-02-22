@@ -21,5 +21,8 @@
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
     "typescript": "^3.9.6"
+  },
+  "resolutions": {
+    "@types/jest": "26.0.15"
   }
 }
