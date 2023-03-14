@@ -1,6 +1,6 @@
 {
-  "version": "0.0.0",
-  "name": "CHANGE_ME",
+  "version": "1.0.0",
+  "name": "metatags",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
