@@ -1,0 +1,22 @@
+name: Danger actions
+'on':
+  pull_request:
+    types: [opened, edited, reopened, synchronize, assigned, unassigned, review_requested, review_request_removed]
+jobs:
+  danger-ci:
+    name: Danger CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 12.x
+        env:
+          RUNNER_TEMP: /tmp
+      - name: yarn install
+        run: yarn install
+      - name: Danger CI
+        uses: vtex/danger@master
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          REQUIRE_CHANGELOG_VERSION: false

@@ -1,18 +1,15 @@
 {
-  "vendor": "fabricasunidas",
-  "name": "metatags",
-  "version": "1.0.0",
-  "title": "MetaTags",
+  "vendor": "CHANGE_ME",
+  "name": "CHANGE_ME",
+  "version": "0.0.0",
+  "title": "CHANGE_ME",
   "description": "CHANGE_ME",
   "builders": {
     "react": "3.x",
     "messages": "1.x",
-    "docs": "0.x",
-    "store": "0.x"
+    "docs": "0.x"
   },
-  "dependencies": {
-    "vtex.styleguide": "9.x"
-  },
+  "dependencies": {},
   "registries": [
     "smartcheckout"
   ],
