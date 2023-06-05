@@ -1,13 +1,14 @@
 {
-  "vendor": "CHANGE_ME",
-  "name": "CHANGE_ME",
-  "version": "0.0.0",
-  "title": "CHANGE_ME",
-  "description": "CHANGE_ME",
+  "vendor": "webimpacto",
+  "name": "hello-world",
+  "version": "0.0.1",
+  "title": "hello-world",
+  "description": "Entrenamiento Oliver",
   "builders": {
     "react": "3.x",
     "messages": "1.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "store": "0.x"
   },
   "dependencies": {},
   "registries": [
